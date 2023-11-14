@@ -9,11 +9,21 @@
     padding: 0px;
 }
 
+
 main{
-    background-image: url(../img/fondo-1.svg);
+    height: 723px;
+    background-image: url(../img/fondo.svg);
     background-size: cover;
-    background-position: 0px -20px;
+    background-position: -190px 0px;
+    z-index: 10;
     /* https://app.haikei.app/ */
+}
+
+.main-fondo-1{
+    width: 100%;
+    position: fixed;
+    top: 320px;
+    z-index: -1;
 }
 
 .inicio{
@@ -22,15 +32,15 @@ main{
     height: 607px;
 }
 
-.logotipo{
+.inicio-logotipo{
     text-align:  center;
 }
 
-.img-LEIM{
+.inicio-img-LEIM{
     width: 200px;
 }
 
-.titulo-colegio{
+.inicio-titulo-colegio{
     color: white;
     font-family: 'libra-serif-modern-regular'; 
     font-size: x-large;
@@ -39,17 +49,17 @@ main{
     text-align: center;
 } 
 
-.login{
+.inicio-login{
     display: flex;
     flex-direction: column;
     width: 500px;
     height: 500px;
-    margin: 40px 0px 0px 100px;
+    margin: 95px 0px 0px 100px;
     text-align: left;
 }
 
 
-.login label{
+.inicio-login label{
     font-family: 'Questrial', sans-serif;
     color: white;
     padding: 2px;
@@ -57,14 +67,15 @@ main{
     margin-left: 90px;
 }
 
-.login input{
+.inicio-login input{
     width: 350px;
-    margin: 0px 0px 30px 90px;
+    margin: 0px 0px 20px 90px;
     border-radius: 10px;
     border: 0px;
+    padding: 5px;
 }
 
-.logicaInicio{
+.inicio-logicaInicio{
     display: flex;
     flex-direction: column;
     margin-top: 15px;
@@ -93,25 +104,35 @@ main{
     margin-left: 119px;
 }
 
-.imgHome{
-    height: 300px;
+.inicio-imgHome{
+    height: 340px;
     position: absolute;
     z-index: 3;
-    right: 220px;
-    top: 140px;
+    right: 240px;
+    top: 200px;
 }
 
-.robot{
+.inicio-robot{
     position: fixed;
     right: 30px;
     bottom: 30px;
     width: 60px;
 }
 
-.mancha{
+.inicio-mancha{
     position: fixed;
     top: 0px;
-    right: 0px;
-    width: 55%;
+    right: 50px;
+    width: 40%;
     z-index: 1;
+    transform: rotate(90deg);
+}
+
+.inicio-mancha-fondo{
+    position: fixed;
+    top: 305px;
+    right: 0px;
+    width: 100%;
+    z-index: -99;
+    transform: rotateX(180deg);
 }
