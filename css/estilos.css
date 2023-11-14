@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/* font-family: 'Questrial', sans-serif; */
+@import url('https://blogfonts.com/css/aWQ9NTU2JnN1Yj01NTYmYz1sJnR0Zj1saWJyYS1zZXJpZi1tb2Rlcm4ucmVndWxhci5vdGYmbj1saWJyYS1zZXJpZi1tb2Rlcm4tcmVndWxhcg/Libra Serif Modern Regular.otf" rel="stylesheet');
+/* font-family: 'libra-serif-modern-regular', sans-serif; */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    background-image: url(../img/fondo-1.svg);
+    background-size: cover;
+    background-position: 0px -20px;
+    /* https://app.haikei.app/ */
+}
+
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    height: 607px;
+}
+
+.logotipo{
+    text-align:  center;
+}
+
+.img-LEIM{
+    width: 200px;
+}
+
+.titulo-colegio{
+    color: white;
+    font-family: 'libra-serif-modern-regular'; 
+    font-size: x-large;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+} 
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin: 40px 0px 0px 100px;
+    text-align: left;
+}
+
+
+.login label{
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    padding: 2px;
+    font-size: medium;
+    margin-left: 90px;
+}
+
+.login input{
+    width: 350px;
+    margin: 0px 0px 30px 90px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.logicaInicio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.btn-login{
+    padding: 5px;
+    width: 100px;
+    border-radius: 8px;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+    margin-left: 160px;
+    background-color: aquamarine;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+}
+
+.olv-password{
+    display: inline-block;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    padding: 10px;
+    margin-left: 119px;
+}
+
+.imgHome{
+    height: 300px;
+    position: absolute;
+    z-index: 3;
+    right: 220px;
+    top: 140px;
+}
+
+.mancha{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 55%;
+    z-index: 1;
+}
