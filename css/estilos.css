@@ -101,6 +101,13 @@ main{
     top: 140px;
 }
 
+.robot{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 60px;
+}
+
 .mancha{
     position: fixed;
     top: 0px;
