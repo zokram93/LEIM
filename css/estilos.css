@@ -11,7 +11,7 @@
 
 
 main {
-    height: 723px;
+    height: 700px;
     /* https://app.haikei.app/ */
 }
 
@@ -25,14 +25,14 @@ main {
 .main-fondo {
     width: 100%;
     position: fixed;
-    top: 200px;
+    top: 150px;
     z-index: 1;
 }
 
 .main-fondo-1 {
     width: 100%;
     position: fixed;
-    top: 320px;
+    top: 280px;
     z-index: -1;
 }
 
@@ -120,7 +120,7 @@ main {
     position: absolute;
     z-index: 3;
     right: 240px;
-    top: 200px;
+    top: 190px;
 }
 
 .inicio-robot {
@@ -134,8 +134,8 @@ main {
 .inicio-mancha {
     position: fixed;
     top: 0px;
-    right: 50px;
-    width: 40%;
+    right: 90px;
+    width: 36%;
     z-index: 1;
     transform: rotate(90deg);
 }
@@ -209,6 +209,16 @@ main {
     text-align: center;
 }
 
+.nav-user {
+    width: 30px;
+    height: 30px;
+
+}
+
+.nav-burger img {
+    width: 30px;
+}
+
 .home-Familia {
     display: flex;
     justify-content: end;
@@ -223,22 +233,12 @@ main {
     margin-top: 6px;
 }
 
-.nav-user {
-    width: 30px;
-    height: 30px;
-
-}
-
-.nav-burger img {
-    width: 30px;
-}
-
 
 .home {
     background-color: #D9D9D9;
     display: flex;
     justify-content: space-around;
-    height: 673px;
+    height: 650px;
 }
 
 .home-mancha {
@@ -391,4 +391,24 @@ main {
 
 .calendario{
    border-radius: 10px;
+}
+
+.cronograma-fixed-btn{
+    position: fixed;
+    z-index: 99;
+    right: -95px;
+    bottom: 40px;
+    background-color: #022E40;
+    font-family: 'Questrial', sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.cronograma-fixed-btn img {
+    width: 30px;
+    height: 30px;
 }
